@@ -22,10 +22,10 @@ const myDistInFeet = distanceFromHqInFeet(blocks)
 console.log(`The distance is : ${myDistInFeet} feet`)
 
 function distanceTravelledInFeet (start, destination){
-    const feetPerBlock = 264
+    const feetPerBlock = 264;
     const distanceFeet = Math.abs(destination - start) * feetPerBlock
 
-    return distanceFeet
+    return distanceFeet;
 }
 const totalDistance = distanceTravelledInFeet(34,38)
 console.log(`Distance travelled in feet is ${totalDistance}`)
